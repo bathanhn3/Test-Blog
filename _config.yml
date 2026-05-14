@@ -1,0 +1,20 @@
+title: Test Blog
+description: A basic Jekyll static site deployed with GitHub Pages.
+url: ""
+baseurl: "/Test-Blog"
+lang: vi
+timezone: Asia/Bangkok
+
+permalink: /posts/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .jekyll-server*.log
+  - vendor/
+  - node_modules/
